@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('images.jpeg');
+}
+
+.counter-container {
+    text-align: center;
+    background-color: rgb(245, 3, 205);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(36, 233, 10, 0.1);
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #06f743;
+    color: rgb(3, 0, 0);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#counter {
+    font-size: 2em;
+    color: #cff708;
+}
